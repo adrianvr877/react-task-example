@@ -18,6 +18,7 @@ function TaskForm() {
 
   return (
     <div className="max-w-md mx-auto">
+      <h1 className="text-white text-5xl font-bold text-center mb-4">CRUD de tareas</h1>
       <form onSubmit={handleSubmit} className="bg-slate-800 p-10 mb-4">
         <h1 className="text-2xl font-bold text-white mb-3">Captura una nueva tarea</h1>
         <input
